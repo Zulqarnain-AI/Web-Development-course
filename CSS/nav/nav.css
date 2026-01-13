@@ -1,0 +1,33 @@
+nav{
+    background-color: rgb(154, 146, 137);
+    height:50px;
+    border-radius:3px;
+    text-align:center;
+    align-content: center;
+
+    
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+}
+nav select{
+    background-color: rgb(170, 187, 218);
+    border-radius: 4px;
+}
+a:hover,select:hover{
+    background-color: aqua;
+    color: brown;
+    border-radius: 4px;
+}
+a:active,select:active{
+    background-color: rgb(31, 53, 53);
+    color: rgb(142, 103, 103);
+    border-radius: 4px;
+}
+a:visited,select:visited{
+    background-color: rgb(154, 61, 129);
+    color: rgb(208, 232, 229);
+    border-radius: 4px;
+}

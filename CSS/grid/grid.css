@@ -1,0 +1,17 @@
+.item{
+    height:50px;
+    /* width:50px; */
+    background-color: rgb(62, 45, 77);
+    border: 2px solid black;
+}
+.container{
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    /* grid-template-rows:60px 60px 60px ; */
+
+}
+.item-8{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}

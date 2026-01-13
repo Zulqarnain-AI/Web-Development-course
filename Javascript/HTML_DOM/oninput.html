@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 onclick="this.innerHTML='oops'" >hi I am a paragraph</h1>
+    name: <input type="text" oninput="inpot()" id="field" value="">
+    <p onclick="func()" id="one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod non pariatur quam ex neque. Assumenda beatae debitis quia et nobis natus rerum tempore dolor? Consequatur delectus adipisci similique ipsa officia?</p>
+    <button onclick="showTime()">check time</button>
+    <p id="time"></p>
+    <p id="two"></p>
+
+   <script>
+    function func(){
+
+        document.getElementById('one').innerHTML='sorry';
+    }
+    function showTime(){
+        document.getElementById('time').innerHTML=Date();
+       
+    }
+    function inpot(){
+        document.getElementById('field').style.height="50px";
+        document.getElementById('field').style.color="white";
+        document.getElementById('field').style.background="blue";
+        const x=document.getElementById('field');
+        document.getElementById("two").innerHTML=x.value;
+        
+
+
+    }
+
+   </script>
+</body>
+</html>

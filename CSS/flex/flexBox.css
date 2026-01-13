@@ -1,0 +1,33 @@
+.container{
+    height:500px;
+    /* width:500px; */
+    background-color: rgb(141, 113, 79);
+    border: 4px solid rgb(79, 65, 65);
+
+
+    display: flex;
+    align-items: none;/*move up and down*/
+    justify-content:space-between;/*move left and right*/
+    flex-wrap:wrap;
+    align-content:center;
+
+    
+
+}
+.box{
+    display: flex;
+    height:90px;
+    width:90px;
+    font-size:x-large;
+    font-weight: bolder;
+    color: aliceblue;
+    background-color:rgb(116, 27, 49);
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+
+    
+
+}

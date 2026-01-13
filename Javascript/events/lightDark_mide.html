@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>dark mode</button>
+    <script>
+        let btn=document.querySelector('button');
+        let body=document.querySelector('body');
+        btn.addEventListener('click',change);
+        let a=1;
+        function change(){
+            if(a===1){
+                btn.innerText="light mode";
+                btn.style.backgroundColor="black";
+                btn.style.color="white";
+                body.style.backgroundColor="black";
+                a=0;
+            }
+            else {
+                btn.innerText="dark mode";
+                btn.style.backgroundColor="white";
+                btn.style.color="black";
+                body.style.backgroundColor="white";
+                a=1;
+            }
+        }
+    </script>
+</body>
+</html>

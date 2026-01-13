@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 50px;
+            width: 50px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>heading</h1>
+    <button onclick="console.log('button was clicked! ')">click me</button>
+    <div ondblclick="console.log('button was double click! ');"  onmouseover="console.log('mouseover')" onmousemove="console.log('mouse is moving...')">hi</div>
+    <script>
+        let h1=document.querySelector('h1');
+        h1.onclick=()=>{
+            h1.style.backgroundColor="red";
+            h1.style.borderRadius="10px";
+            h1.style.border="3px solid black";
+            h1.style.color="white";
+            h1.innerText='after clicked';
+
+        }
+    </script>
+</body>
+
+</html>

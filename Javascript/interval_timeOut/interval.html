@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img id="one" src="Cuisine.jpg" alt="" height="300px">
+    <script>
+        // j=0; uncomment it
+        // setInterval(() => {
+            
+        //     change();
+
+        // }, 1000);
+        function change() {
+            
+            if(j==0){
+                document.getElementById('one').src = "skardu.jpeg"
+                j++;
+                
+            }
+            else if(j==1){
+                document.getElementById('one').src = "Hunza Valley.jpg"
+                j++;
+                
+            }
+            else{
+                document.getElementById('one').src = "Nanga Parbat.jpeg"
+                j=0;
+
+            }
+            
+        }
+
+    </script>
+</body>
+
+</html>

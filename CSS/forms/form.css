@@ -1,0 +1,75 @@
+*{
+    padding:0px;
+    margin:0px;
+   
+}
+body{
+    background-color: rgb(141, 138, 138);
+}
+.box{
+    border:1px solid black;
+    border-radius:3px;
+    margin: 0 25%  0 25%;
+    
+}
+.head{
+    background-color:rgb(220, 228, 179);
+    text-align:center;
+    align-items: center;
+} 
+.body{
+    background-color:rgb(209, 245, 245);
+    font-size:large;
+    padding:7px
+}
+input[type='text'],
+input[type='email'],
+input[type='password']{
+    width:70%;
+    border-radius: 3px
+}
+select{
+    width:70%
+
+}
+select:hover{
+    background-color: aqua;
+}
+input[type='radio']{
+    margin:4px
+}
+input[type=submit]{
+    background-color: rgb(14, 116, 39);
+    color:white;
+    width:25%;
+    align-items: left;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+input[type=submit]:hover{
+    background-color: red;
+    color: black;
+}
+input[type=submit]:active{
+    background-color: rgb(228, 207, 207);
+    color: black;
+}
+input[type=reset]{
+    background-color: rgb(75, 24, 52);
+    color:white;
+    width:25%;
+    border-radius: 5px;
+    margin-left:30px
+    
+    
+    
+}
+input[type=reset]:hover{
+    background-color: red;
+    color: black;
+}
+input[type=reset]:active{
+    background-color: rgb(228, 207, 207);
+    color: black;
+}

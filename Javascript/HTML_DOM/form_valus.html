@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <body>
+        <form id="one">
+            first name: <input type="text" name="fname" value="ali"><br>
+            last name: <input type="text" name="lname" value="hassan">
+            <br><br>
+            <input type="submit" value="submit">
+        </form>
+        <p id="two"></p>
+        <script>
+            const x = document.forms["one"];
+            let text = "";
+            for(let i=0;i<x.length;i++){
+                text +=x.elements[i].value+ "<br>";
+                if(x[i].type=="text"){
+                    a=x[i].value.toUpperCase() ;
+                    console.log(a);
+                }
+            }
+           
+            document.getElementById('two').innerHTML=text;
+        </script>
+
+    </body>
+
+</html>
+
+</body>
+
+</html>

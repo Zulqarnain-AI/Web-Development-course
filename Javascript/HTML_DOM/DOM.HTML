@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        let e = document.createElement('div');
+        let h = document.createElement('h1');
+        let p = document.createElement('p');
+        e.innerText = 'abcdefghijklmnopqrstuvwxyz';
+        e.setAttribute('id','abc');
+
+        h.innerText='hi thia heading ok!';
+        p.innerText='this is the paragraph of the document! ';
+        b = document.querySelector('body')
+        b.append(e);
+        b.prepend(h);
+        h.after(p);
+        e.remove();
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+.main{
+    height: 300px;
+    display:flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    /* flex-flow: row wrap-reverse; */
+    border:2px solid black;
+    /* justify-content:space-between; */
+    /* align-items: center; */
+    align-content: start;
+    gap: 10px;
+    /* column-gap: 10px; */
+    /* row-gap: 10px; */
+
+}
+.flex{
+    
+    height: 70px;
+    width:70px;
+    border:1px solid rgb(213, 17, 13);
+    /* margin: 5px; */
+    background-color: aqua;
+    align-content: center;
+    flex-basis: 20%;
+
+}
+.order1{
+    order: 4;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // function callback(agr){
+        //     console.log(`callback is runing... ${agr}`)
+        // }
+        // function mainfunction(callback){
+        //     console.log('operation performing...')
+        //     setTimeout(()=>{
+        //         console.log('setTime...')
+
+        //     },3000)
+        //     callback('callback')
+
+        // }
+
+        // mainfunction(callback)
+        function displayer(a) {
+            console.log(a);
+        }
+        function mainfunction(x, y) {
+            console.log('main function executed');
+            console.log(x);
+            if (y) {
+
+                setTimeout(() => { y() }, 3000)
+            }
+        }
+        mainfunction(12, () => {
+            mainfunction(3, () => {
+                mainfunction(2, () => {
+                    mainfunction(23, () => {
+                        mainfunction(21, () => { displayer(21) })
+
+                    })
+
+                });
+
+            });
+        });
+
+
+    </script>
+</body>
+
+</html>

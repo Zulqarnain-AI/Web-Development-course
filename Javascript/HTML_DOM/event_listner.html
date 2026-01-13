@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="event">this is for event listner</h1>
+    <script>
+        document.getElementById('event').addEventListener('click',change);
+        document.getElementById('event').addEventListener('mouseover',change1);
+        document.getElementById('event').addEventListener('mousewheel',change2);
+        function change(){
+            document.getElementById('event').innerHTML='clicked';
+        }
+        function change1(){
+            document.getElementById('event').innerHTML='mouseover';
+        }
+        function change2(){
+            document.getElementById('event').innerHTML='mousewheel';
+        }
+    </script>
+</body>
+</html>

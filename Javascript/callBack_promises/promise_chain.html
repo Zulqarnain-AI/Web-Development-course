@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+
+        function myfunction() {
+            return new Promise((resovle, reject) => {
+                // console.log("return promise");
+                setTimeout(() => {
+                    console.log("geting data");
+                    resovle('success');
+                }, 1000);
+            });
+        }
+
+        // let a = myfunction()
+        // a.then((re) => {
+        //     console.log(re)
+        //     let b = myfunction()
+        //     b.then((re) => {
+        //         console.log(re)
+        //         let c=myfunction()
+        //         c.then((re)=>{
+        //             console.log(re)
+        //         })
+        //     })
+
+        // });
+        // myfunction().then((re) => {
+        //     console.log(re);
+        //     myfunction().then((re) => {
+        //         console.log(re);
+        //          myfunction().then((re) => {
+        //             console.log(re);
+        //         })
+
+        //     })
+        // })
+        myfunction().then((re) => {
+            console.log(re);
+            return myfunction();
+        }).then((re) => {
+            console.log(re);
+            return myfunction();
+        }).then((re) => {
+            console.log(re)
+        })
+    </script>
+</body>
+
+</html>
