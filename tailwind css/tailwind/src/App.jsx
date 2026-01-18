@@ -8,10 +8,10 @@ function App() {
 
   return (
     <>
-      <h1 className='bg-black  text-white'>hello world...</h1>
+      {/* <h1 className='bg-black  text-white'>hello world...</h1>
       <div className='bg-green-400'>
 
-      {/* <p className='text-red-50'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex magni dolor  </p>
+      <p className='text-red-50'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex magni dolor  </p>
       <p className='text-red-100'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex magni dolor  </p>
       <p className='text-red-200'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex magni dolor  </p>
       <p className='text-red-300'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex magni dolor  </p>
@@ -19,12 +19,52 @@ function App() {
       <p className='text-red-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex magni dolor  </p>
       <p className='text-red-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex magni dolor  </p>
       <p className='text-red-700'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex magni dolor  </p>
-      <p className='text-red-800'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex magni dolor  </p> */}
+      <p className='text-red-800'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex magni dolor  </p>
       </div>
       <div className='bg-green-200 max-w-100 w-100'>hi there how are you!</div>
       <div className='bg-green-300 w-1/2'>hi there how are you!</div>
       <div className='bg-green-400 w-1/3'>hi there how are you!</div>
-      <div className='bg-green-500 w-1/4'>hi there how are you!</div>
+      <div className='bg-green-500 w-1/4'>hi there how are you!</div> */}
+
+      {/* <div className=' bg-green-300 h-[50dvh]'>50% dinamic view port height</div>
+      <div className="bg-red-300 h-full ">h-full</div>
+      <div className="bg-green-300 h-9/10 ">h-9/10</div>
+      <div className="bg-red-300 h-3/4">h-3/4</div>
+      <div className="bg-green-300 h-1/2 ">h-1/2</div>
+      <div className="bg-red-300 h-20 ">h-1/3</div> */}
+      {/* <div className='h-screen'>
+        <div className='bg-green-400 h-1/2'></div>
+        <div className='bg-red-400 size-1/2'></div>
+      </div> */}
+
+
+      {/* Position class */}
+      <div className='bg-red-200 h-dvh '>
+        <h1 className='bg-black text-white fixed z-5 w-full'>this is heading ok</h1>
+      <div className='bg-red-400 h-1/2 border-2 relative top-10'>
+      <div className='bg-green-400 size-1/4 absolute bottom-1 right-1 border-2'></div>
+      <div className='bg-green-400 size-1/4 absolute top-1 right-1 border-2'></div>
+      <div className='bg-green-400 size-1/4 absolute top-1 left-1 border-2'></div>
+      <div className='bg-green-400 size-1/4 absolute bottom-1 left-1 border-2'></div>
+      </div>
+
+      <div className='bg-yellow-500 h-1/2 border-2 relative mt-20'>
+      <div className='bg-green-400 size-1/4 absolute bottom-1 right-1 border-2'></div>
+      <div className='bg-green-400 size-1/4 absolute top-1 right-1 border-2'></div>
+      <div className='bg-green-400 size-1/4 absolute top-1 left-1 border-2'></div>
+      <div className='bg-green-400 size-1/4 absolute bottom-1 left-1 border-2'></div>
+      </div>
+
+      <div className='bg-blue-600 h-1/2 border-2 relative mt-10'>
+
+      <div className='bg-green-400 size-1/4 absolute bottom-1 right-1 border-2'></div>
+      <div className='bg-green-400 size-1/4 absolute top-1 right-1 border-2'></div>
+      <div className='bg-green-400 size-1/4 absolute top-1 left-1 border-2'></div>
+      <div className='bg-green-400 size-1/4 absolute bottom-1 left-1 border-2'></div>
+      </div>
+      </div>
+
+
 
     </>
   )
