@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import img from './img.jfif'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -39,7 +40,7 @@ function App() {
 
 
       {/* Position class */}
-      <div className='bg-red-200 h-dvh '>
+      {/* <div className='bg-red-200 h-dvh '>
         <h1 className='bg-black text-white fixed z-5 w-full'>this is heading ok</h1>
       <div className='bg-red-400 h-1/2 border-2 relative top-10'>
       <div className='bg-green-400 size-1/4 absolute bottom-1 right-1 border-2'></div>
@@ -62,9 +63,21 @@ function App() {
       <div className='bg-green-400 size-1/4 absolute top-1 left-1 border-2'></div>
       <div className='bg-green-400 size-1/4 absolute bottom-1 left-1 border-2'></div>
       </div>
+      </div> */}
+
+      {/* container */}
+      {/* <div className='bg-green-300 h-screen'>
+        <div className="bg-white container mx-auto text-3xl ">container</div>
+      </div> */}
+
+      {/* background class */}
+      <div className='h-30 bg-red-200  ' style={{ backgroundImage: `url(${img}) ` }}>
+        helllo..
+
       </div>
-
-
+      {/* <img src={img} alt="image is loading..." className='m-0' /> */}
+      <div className='size-50 gradient bg-gradient-to-b to-blue-500 from-red-500'>hi</div>
+      
 
     </>
   )
