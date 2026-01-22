@@ -71,13 +71,32 @@ function App() {
       </div> */}
 
       {/* background class */}
-      <div className='h-30 bg-red-200  ' style={{ backgroundImage: `url(${img}) ` }}>
+      {/* <div className='h-30 bg-red-200  ' style={{ backgroundImage: `url(${img}) ` }}>
         helllo..
 
-      </div>
+      </div> */}
       {/* <img src={img} alt="image is loading..." className='m-0' /> */}
-      <div className='size-50 gradient bg-gradient-to-b to-blue-500 from-red-500'>hi</div>
-      
+      {/* <div className='size-50 gradient bg-gradient-to-b to-blue-500 from-red-500'>hi</div> */}
+      {/* <div className='size-50 gradient bg-gradient-to-t to-green-900 from-red-300'></div> */}
+      {/* <div className='flex flex-wrap'>
+        
+        <img src={img} alt="" className='blur-[1.5px] rounded-[15px]'/>
+        <img src={img} alt="" className='blur-sm'/>
+        <img src={img} alt="" className='blur-md'/>
+        <img src={img} alt="" className='blur-3xl'/>
+        <img src={img} alt="" className='blur-lg'/>
+        
+        <img src={img} alt="" className='brightness-50'/>
+        <img src={img} alt="" className='brightness-100'/>
+        <img src={img} alt="" className='brightness-125'/>
+        <img src={img} alt="" className='brightness-200'/>
+
+        <img src={img} alt="" className='contrast-50'/>
+        <img src={img} alt="" className='contrast-100'/>
+        <img src={img} alt="" className='contrast-125'/>
+        <img src={img} alt="" className='contrast-200'/>
+
+      </div> */}
 
     </>
   )
