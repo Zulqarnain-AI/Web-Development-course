@@ -98,6 +98,8 @@ function App() {
 
       </div> */}
 
+      <div className='bg-red-300 size-30 m-10 border-3 rounded-[5px] hover:bg-red-500 hover:size-33'></div>
+
     </>
   )
 }
