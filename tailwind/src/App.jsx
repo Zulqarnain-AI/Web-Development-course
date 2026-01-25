@@ -98,7 +98,45 @@ function App() {
 
       </div> */}
 
-      <div className='bg-red-300 size-30 m-10 border-3 rounded-[5px] hover:bg-red-500 hover:size-33'></div>
+      {/* <div className='bg-red-300 size-30 m-10 border-3 rounded-[5px] hover:bg-red-500 hover:size-33'></div> */}
+
+      {/* <div className='bg-green-300 h-screen lg:bg-blue-400 md:bg-red-500 xl:bg-yellow-900'>
+
+      </div> */}
+
+      {/* <div className='columns-4'>
+        <h1 className='bg-red-300'>one</h1>
+        <h1 className='bg-red-800'>three</h1>
+        <h1 className='bg-red-600'>two</h1>
+        <h1 className='bg-red-800'>three</h1>
+        <h1 className='bg-red-600'>two</h1>
+        <h1 className='bg-red-200'>five</h1>
+        <h1 className='bg-red-900'>four</h1>
+        <h1 className='bg-red-200'>five</h1>
+        <h1 className='bg-red-900'>four</h1>
+      </div> */}
+      {/* <div className='columns-3 '>
+        <img src={img} alt="" className=''/>
+        <img src={img} alt="" className=''/>
+        <img src={img} alt="" className=''/>
+        <img src={img} alt="" className=''/>
+        <img src={img} alt="" className=''/>
+      </div> */}
+{/* 
+      <div className='flex  flex-wrap content-start h-screen w-100 bg-green-300 justify-center'>
+
+        <div className='size-30 bg-red-400 '></div>
+        <div className='size-30 bg-red-700 '></div>
+        <div className='size-30 bg-red-200 '></div>
+        <div className='size-30 bg-red-500 '></div>
+        <div className='size-30 bg-red-300 '></div>
+        <div className='size-30 bg-red-600 '></div>
+        <div className='size-30 bg-blue-600 '></div>
+        <div className='size-30 bg-blue-300 '></div>
+        <div className='size-30 bg-blue-500 '></div>
+        <div className='size-30 bg-blue-900 '></div>
+        <div className='size-30 bg-blue-200 '></div>
+      </div> */}
 
     </>
   )
